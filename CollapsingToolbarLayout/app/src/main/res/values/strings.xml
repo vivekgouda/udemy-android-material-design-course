@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Collapsing Toolbar Layout</string>
+    <string name="welcomeimg">welcomeImg</string>
+    <string name="newyorkcity">NewYorkCity</string>
+    <string name="text_1">text 1</string>
+    <string name="text_2">text 2</string>
+    <string name="text_3">text 3</string>
+    <string name="text_4">text 4</string>
+    <string name="text_5">text 5</string>
+    <string name="text_6">text 6</string>
+    <string name="text_7">text 7</string>
+</resources>

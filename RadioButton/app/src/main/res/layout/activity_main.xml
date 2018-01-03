@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioGroup_id">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioButton1_id"
+            android:text="@string/radio_button_1"
+            android:layout_margin="16dp"
+            app:theme="@style/RadioButtonTheme"
+            android:checked="false"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioButton2_id"
+            android:text="@string/radio_button_2"
+            android:layout_margin="16dp"
+            app:theme="@style/RadioButtonTheme"
+            android:checked="false"/>
+
+    </RadioGroup>
+
+</RelativeLayout>
